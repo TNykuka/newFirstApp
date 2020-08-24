@@ -10,8 +10,13 @@
     <fragment
         android:id="@+id/TitleFragment"
         android:name="com.example.newfirstapp.TitleFragment.TitleFragment"
-        android:label="First App TNy-Kk"
+        android:label="FirstApp"
         tools:layout="@layout/fragment_title" />
 
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.newfirstapp.About.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/about_fragment" />
 
 </navigation>
