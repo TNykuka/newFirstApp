@@ -2,12 +2,16 @@
 
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation"
-    app:startDestination="@id/titleFragment">
+    app:startDestination="@id/TitleFragment"
+    tools:ignore="UnusedNavigation">
 
     <fragment
-        android:id="@+id/titleFragment"
+        android:id="@+id/TitleFragment"
         android:name="com.example.newfirstapp.TitleFragment.TitleFragment"
-        android:label="TitleFragment" />
+        android:label="First App TNy-Kk"
+        tools:layout="@layout/fragment_title" />
+
 
 </navigation>
